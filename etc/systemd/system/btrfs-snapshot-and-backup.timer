@@ -1,0 +1,9 @@
+[Unit]
+Description=Make BTRFS snapshots and copy them to HDD
+
+[Timer]
+OnCalendar=00/2:00
+#Persistent=true
+
+[Install]
+WantedBy=timers.target
