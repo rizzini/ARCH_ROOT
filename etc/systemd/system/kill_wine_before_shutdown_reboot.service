@@ -5,7 +5,7 @@ Before=shutdown.target
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/killall -9 winedevice.exe wineserver wineboot.exe wine
+ExecStart=/usr/bin/killall -9 winedevice.exe wineserver wineboot.exe wine teamviewerd teamviewer
 TimeoutStartSec=0
 
 [Install]
