@@ -1,0 +1,10 @@
+[Unit]
+Description=Check BTRFS storage devices' health
+
+[Service]
+ExecStart=/usr/bin/cpupower frequency-set -g ondemand
+Type=oneshot
+
+
+[Install]
+WantedBy=default.target
